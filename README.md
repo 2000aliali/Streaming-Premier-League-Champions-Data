@@ -29,7 +29,7 @@ This project emphasizes the creation of a real-time dashboard. It commences by s
 
 
 
-- **Apache Kafka :** Integral for streaming data from a random API, enabling the continuous flow of Premier League Champions data sourced from BBC Sport. Kafka ensures the seamless transfer of raw data, setting the stage for subsequent processing steps.
+- **Apache Kafka :** Integral for streaming data from a BBC sport websit, enabling the continuous flow of Premier League Champions data sourced from BBC Sport. Kafka ensures the seamless transfer of raw data, setting the stage for subsequent processing steps.
 - **Apache Spark :** Essential for both real-time data processing and streaming tasks. Spark's distributed computing capabilities handle the incoming data streams from Kafka, facilitating efficient analysis and transformation of the Premier League Champions data
 - **postgresql:** Serves as the database backend for storing the processed data. PostgreSQL's reliability and scalability ensure that the valuable insights derived from the data processing pipeline are securely persisted for future retrieval and analysis..
 - **Pandas:** Empowered to perform data cleaning and preprocessing tasks on the Premier League Champions data. Pandas' versatility enables efficient manipulation and transformation of the raw data, ensuring its readiness for further processing stages
