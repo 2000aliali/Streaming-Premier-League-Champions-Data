@@ -16,7 +16,7 @@
 
 <a name="introduction"></a>
 ## Introduction
-This project emphasizes the creation of a real-time dashboard. It commences by scripting Premier League Champions data from BBC Sport, followed by data cleaning. Subsequently, the data is streamed to Apache Airflow and then to Apache Spark for processing. The processed data is streamed to PostgreSQL for storage. Finally, a robust dashboard is constructed using Streamlit
+This project emphasizes the creation of a real-time dashboard. It commences by scripting Premier League Champions data from BBC Sport, followed by data cleaning. Subsequently, the data is streamed to Apache Kafka and then to Apache Spark for processing. The processed data is streamed to PostgreSQL for storage. Finally, a robust dashboard is constructed using Streamlit
 <a name="SystemArchitecture"></a>
 ## System Architecture
 ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/Image1.png)
