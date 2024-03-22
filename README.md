@@ -16,8 +16,7 @@
 
 <a name="introduction"></a>
 ## Introduction
-This project focuses on building an end-to-end data engineering pipeline. It covers each stage from data ingestion to processing and finally to storage, utilizing a robust tech stack that includes Apache Airflow, Python, Apache Kafka, Apache Zookeeper,pandas and Cassandra. Everything is containerized using Docker for ease of deployment and scalability.
-
+This project emphasizes the creation of a real-time dashboard. It commences by scripting Premier League Champions data from BBC Sport, followed by data cleaning. Subsequently, the data is streamed to Apache Airflow and then to Apache Spark for processing. The processed data is streamed to PostgreSQL for storage. Finally, a robust dashboard is constructed using Streamlit
 <a name="SystemArchitecture"></a>
 ## System Architecture
 ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/Image1.png)
