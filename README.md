@@ -39,22 +39,19 @@ This project emphasizes the creation of a real-time dashboard. It commences by s
 
 
 ## Get Started
-This project focuses on extracting data from random users api "https://randomuser.me/api/"
-Follow these steps to get started with the project:
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/2000aliali/Streaming-Premier-League-Champions-Data.git
-3. **Go to the project folder**
+2. **Go to the project folder**
  ```sh
-   cd myenv
+   createdb -U username  Premier League
+
 ```
-4. **create image**
+3. **Connect to your database**
  ```sh
-   docker build -t pandas-image -f Dockerfile.pandas . 
+   psql -U username -d Premier League
  ```
-5. **Build the environment with Docker Compose:**
-```sh
-   docker-compose up
+
  ```
 And you will get this :
 ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%205.png)
