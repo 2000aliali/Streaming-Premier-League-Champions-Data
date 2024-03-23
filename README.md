@@ -42,7 +42,7 @@ This project emphasizes the creation of a real-time dashboard. It commences by s
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/2000aliali/Streaming-Premier-League-Champions-Data.git
-2. **Go to the project folder**
+2. **Create a database**
  ```sh
    createdb -U username  Premier League
 
@@ -52,7 +52,7 @@ This project emphasizes the creation of a real-time dashboard. It commences by s
    psql -U username -d Premier League
  ```
 
- ```
+
 And you will get this :
 ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%205.png)
 
