@@ -87,7 +87,7 @@ python producer_final_table.py
 now let us to verify that our topic are created :
  by  :
  ```sh
- 
+ ./bin/kafka-topics.sh --list --bootstrap-server localhost:9092
   
  ```
 ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%205.png)
