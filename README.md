@@ -41,12 +41,9 @@ This project emphasizes the creation of a real-time dashboard. It commences by s
 ## Get Started
 This project focuses on extracting data from random users api "https://randomuser.me/api/"
 Follow these steps to get started with the project:
-1. **activte the virtual envairement**
-    ```sh
-     .\myenv\Scripts\Activate   
-2. **Clone the repository:**
+1. **Clone the repository:**
    ```sh
-   git clone https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera.git
+   git clone https://github.com/2000aliali/Streaming-Premier-League-Champions-Data.git
 3. **Go to the project folder**
  ```sh
    cd myenv
