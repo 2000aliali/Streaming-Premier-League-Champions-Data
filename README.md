@@ -63,17 +63,31 @@ pip install BeautifulSoup
 pip install time
 
  ```
+5. **Start Zookeeper service**
+ ```sh
 
-5. **Run the 3 producer**
+sudo systemctl start zookeeper
+
+ ```
+6. **Start Kafka service :**
+    ```
+ sudo systemctl start kafka
+ ```
+
+7. **Run the 3 producer**
  ```
 python top_score_producer.py
 python top_assists_producer.py
-python producer_finaltible.py 
+python producer_final_table.py 
   
  ```
 
 
-And you will get this :
+now let us to verify that our topic are created :
+ by  : ```
+ 
+  
+ ```
 ![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%205.png)
 
 ### with
