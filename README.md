@@ -72,6 +72,7 @@ sudo systemctl start zookeeper
 6. **Start Kafka service :**
     ```
  sudo systemctl start kafka
+ 
  ```
 
 7. **Run the 3 producer**
@@ -84,7 +85,8 @@ python producer_final_table.py
 
 
 now let us to verify that our topic are created :
- by  : ```
+ by  :
+ ```
  
   
  ```
