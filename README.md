@@ -73,7 +73,7 @@ sudo systemctl start zookeeper
  sudo systemctl start kafka
  ```
 
-7. **Run the 3 producer**
+8. **Run the 3 producer**
  ```sh
 python top_score_producer.py
 python top_assists_producer.py
