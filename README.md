@@ -70,13 +70,13 @@ sudo systemctl start zookeeper
 
  ```
 6. **Start Kafka service :**
-    ```
+    ```sh
  sudo systemctl start kafka
  
  ```
 
 7. **Run the 3 producer**
- ```
+ ```sh
 python top_score_producer.py
 python top_assists_producer.py
 python producer_final_table.py 
@@ -86,7 +86,7 @@ python producer_final_table.py
 
 now let us to verify that our topic are created :
  by  :
- ```
+ ```sh
  
   
  ```
