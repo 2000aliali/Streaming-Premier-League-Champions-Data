@@ -51,6 +51,26 @@ This project emphasizes the creation of a real-time dashboard. It commences by s
  ```sh
    psql -U username -d Premier League
  ```
+4. **install this library**
+ ```sh
+pip install strealit
+pip install pyspark
+pip install psycopg2
+pip install kafka
+pip install json
+pip install requests
+pip install BeautifulSoup
+pip install time
+
+ ```
+
+5. **Run the 3 producer**
+ ```
+python top_score_producer.py
+python top_assists_producer.py
+python producer_finaltible.py 
+  
+ ```
 
 
 And you will get this :
