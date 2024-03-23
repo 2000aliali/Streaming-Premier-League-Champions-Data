@@ -68,15 +68,12 @@ pip install time
 
 sudo systemctl start zookeeper
 ```
-6. **Start Zookeeper service**
+6. **Start Kafka service**
  ```sh
 
 sudo systemctl start kafka
 ```
-6.**Start Kafka service**
-    ```sh
- sudo systemctl start kafka
- ```
+
 
 8. **Run the 3 producer**
  ```sh
