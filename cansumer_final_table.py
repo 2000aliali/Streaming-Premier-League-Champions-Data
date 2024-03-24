@@ -3,13 +3,7 @@ from pyspark.sql.functions import from_json, col
 from pyspark.sql.types import StructType, StringType, IntegerType , FloatType
 
 
-#***********************************************drop the table *************************
-import psycopg2
 
-# Correct the connection parameters
-
-
-#********************************************************************************************
 # Create a SparkSession
 spark = SparkSession.builder \
     .appName("KafkaConsumer") \
