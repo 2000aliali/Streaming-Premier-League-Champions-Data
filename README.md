@@ -16,7 +16,7 @@
 
 <a name="introduction"></a>
 ## Introduction
-This project emphasizes the creation of a real-time dashboard. It commences by scripting Premier League Champions data from BBC Sport, followed by data cleaning. Subsequently, the data is streamed to Apache Kafka and then to Apache Spark for processing. The processed data is streamed to PostgreSQL for storage. Finally, a robust dashboard is constructed using Streamlit
+This project focuses on developing a real-time dashboard. It begins with scraping Premier League Champions data from BBC Sport, followed by data cleaning. Next, the cleaned data is streamed to Apache Kafka and processed using Apache Spark. The processed data is then streamed to PostgreSQL for storage. Finally, a robust dashboard is constructed using Streamlit
 <a name="SystemArchitecture"></a>
 ## System Architecture
 ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/System%20Architecture.png)
