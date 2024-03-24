@@ -14,7 +14,7 @@ import psycopg2
 connection_properties = {
     "dbname": "premier_league",
     "user": "ali",
-    "password": "123456789",
+    "password": "your password",
     "host": "localhost",
     "port": "5432"
 }
