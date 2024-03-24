@@ -43,7 +43,7 @@ try:
     table_name = "top_score2"  # Specify your table name here
     connection_properties = {
         "user": "ali",
-        "password": "123456789",
+        "password": "your password",
         "driver": "org.postgresql.Driver"
     }
 
