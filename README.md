@@ -104,20 +104,20 @@ streamlit run premier_league_dashbooard.py
 
 <a name="license"></a>
 ## Results
-verify that the tables are created in postgresql
+### Verification of Tables in PostgreSQL
 
 
 ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/Capture%20d'%C3%A9cran%202024-03-24%20012006.png)
  then go to http://localhost:8501 to dispaly a real time dashbording
-first there is a general dashboard for the prmeir league and also a dasboard for any team in the premier league :
+### First, there is a general dashboard for the Premier League and also a dashboard for any team in the Premier League:
   ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/first.png)
-  if you select genral dashbooared : 
+  #### if you select genral dashbooared : 
     ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/img1.png)
     ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/img2.png)
     ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/img3.png)
     ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/img4.png)
-   And if you selected dasbooard team :
-     first hcosse your best team 
+  #### If you selected a Dashboard for Any Team in the Premier League:
+  ##### First, choose your favorite team
     ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg1.png)
     ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg2.png)
     ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg3.png)
@@ -128,37 +128,6 @@ first there is a general dashboard for the prmeir league and also a dasboard for
  
 
 
- # Verification of Tables in PostgreSQL
-
-1. **Ensure Tables Creation**: Verify that the tables are created in PostgreSQL by querying the database using SQL commands or using a database management tool like pgAdmin.
-
-# Real-Time Dashboard Access
-
-2. **Access the Dashboard**: After verifying the tables, access the real-time dashboard by navigating to [http://localhost:8501](http://localhost:8501) in your web browser.
-
-# General Dashboard for Premier League
-
-3. This dashboard provides an overview of the Premier League.
-
-   ![General Dashboard](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/first.png)
-
-# Dashboard for Any Team in Premier League
-
-4. **Team Selection**: Select the desired team to view specific insights.
-
-   ![Team Selection](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg1.png)
-
-5. **Team Dashboard**: View detailed information about the team's performance.
-
-   ![Team Dashboard](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg2.png)
-
-6. **Player Statistics**: Analyze player statistics.
-
-   ![Player Statistics](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg3.png)
-
-7. **Match Analysis**: Explore match analysis and historical data.
-
-   ![Match Analysis](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg4.png)
 
 
 
