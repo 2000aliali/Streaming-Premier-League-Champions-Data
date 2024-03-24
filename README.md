@@ -138,9 +138,9 @@ Then, go to [http://localhost:8501](http://localhost:8501) to display real-time 
 
 ![Team Dashboard 2](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg2.png)
 
-![Team Dashboard 3](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg4.png)
+![Team Dashboard 3](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/tmg4.png)
 
-![Team Dashboard 4](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg10.png)
+![Team Dashboard 4](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/tmg10.png)
 
 
  
