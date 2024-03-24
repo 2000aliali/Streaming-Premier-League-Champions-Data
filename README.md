@@ -90,16 +90,6 @@ now let us to verify that our topic are created :
  ./bin/kafka-topics.sh --list --bootstrap-server localhost:9092
   
  ```
-![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%205.png)
+![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/Capture%20d'%C3%A9cran%202024-03-24%20005641.png)
 
-### with
-- **Kafka Broker:** Part of the Kafka streaming system, it manages message storage, access, and transport.
-- **Zookeeper:** A service for distributed setup and coordination, essential for Kafka’s distributed functioning.
-- **Schema Registry:** Offers a REST interface to store and fetch Avro schemas, aiding Kafka streams in recognizing record schemas.
-- **Control Center**: A web tool for overseeing Kafka setups, allowing data checks, topic generation, and Kafka Connect configuration.
-- **Cassandra DB:** A NoSQL database suitable for large-scale, high-speed data spread across multiple nodes, ensuring no sole point of breakdown. Used here so as to load the processed data.
-- **PostgresDB:** A relational database employed as Apache Airflow’s metadata storage and also as a versatile data repository.
-ETL Service: After dockerizing the pipeline scripts, added the service to Compose for us to automatically update, build, and push the Docker image to DockerHub with GitHub Actions’ CI script.
-- **Airflow Webserver:** Airflow’s UI for outlining and overseeing data workflows or DAGs.
-- **Scheduler:** Within Airflow, it kickstarts tasks and forms data pipelines, ensuring timely execution or activation by other tasks.
-- **End-of-Project Container:** This container is responsible for running our final script, `ali.py`, which exists in the `myenv` directory. Additionally, it consumes messages from our topic named `users_created` and loads our data into the `cassandra_db`.
+
