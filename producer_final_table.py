@@ -14,7 +14,7 @@ topic_name = 'topic_premier_league'
 connection_properties = {
     "dbname": "premier_league",
     "user": "ali",
-    "password": "123456789",
+    "password": "your password",
     "host": "localhost",
     "port": "5432"
 }
