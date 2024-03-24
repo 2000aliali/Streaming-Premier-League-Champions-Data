@@ -126,6 +126,39 @@ first there is a general dashboard for the prmeir league and also a dasboard for
 
 
  
- 
+
+
+ # Verification of Tables in PostgreSQL
+
+1. **Ensure Tables Creation**: Verify that the tables are created in PostgreSQL by querying the database using SQL commands or using a database management tool like pgAdmin.
+
+# Real-Time Dashboard Access
+
+2. **Access the Dashboard**: After verifying the tables, access the real-time dashboard by navigating to [http://localhost:8501](http://localhost:8501) in your web browser.
+
+# General Dashboard for Premier League
+
+3. This dashboard provides an overview of the Premier League.
+
+   ![General Dashboard](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/first.png)
+
+# Dashboard for Any Team in Premier League
+
+4. **Team Selection**: Select the desired team to view specific insights.
+
+   ![Team Selection](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg1.png)
+
+5. **Team Dashboard**: View detailed information about the team's performance.
+
+   ![Team Dashboard](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg2.png)
+
+6. **Player Statistics**: Analyze player statistics.
+
+   ![Player Statistics](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg3.png)
+
+7. **Match Analysis**: Explore match analysis and historical data.
+
+   ![Match Analysis](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg4.png)
+
 
 
