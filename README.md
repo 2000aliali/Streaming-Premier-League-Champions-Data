@@ -92,4 +92,12 @@ now let us to verify that our topic are created :
  ```
 ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/Capture%20d'%C3%A9cran%202024-03-24%20005641.png)
 
+ 9. **Run**
+ ```sh
+ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 --jars postgresql-driver.jar  top_score_cansumer.py
+spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 --jars postgresql-driver.jar  top_score_producer.py
+spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 --jars postgresql-driver.jar  cansumer_final_table.py 
+  
+ ```
+
 
