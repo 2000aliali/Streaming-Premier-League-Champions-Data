@@ -54,7 +54,7 @@ def consume_from_kafka():
     table_name = "top_assists"  # Specify your table name here
     connection_properties = {
         "user": "ali",
-        "password": "123456789",
+        "password": "your pass word",
         "driver": "org.postgresql.Driver"
     }
 
