@@ -88,7 +88,6 @@ now let us to verify that our topic are created :
  by  :
  ```sh
  ./bin/kafka-topics.sh --list --bootstrap-server localhost:9092
-  
  ```
 ![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/Capture%20d'%C3%A9cran%202024-03-24%20005641.png)
 
@@ -97,7 +96,22 @@ now let us to verify that our topic are created :
  spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 --jars postgresql-driver.jar  top_score_cansumer.py
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 --jars postgresql-driver.jar  top_score_producer.py
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0 --jars postgresql-driver.jar  cansumer_final_table.py 
-  
  ```
+ 10. **Run**
+ ```sh
+streamlit run premier_league_dashbooard.py
+ ```
+
+<a name="license"></a>
+## Results
+verify that the tables are created in postgresql
+
+
+![Screenshot](https://github.com/2000aliali/End-End-data-engineering-Project-streaming-from-random-users-API-to-cassandera/blob/master/images/image%203.png)
+
+
+
+ 
+ 
 
 
