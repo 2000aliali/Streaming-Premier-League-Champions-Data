@@ -125,6 +125,39 @@ streamlit run premier_league_dashbooard.py
 
 
 
+
+
+![Screenshot](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/Capture%20d'%C3%A9cran%202024-03-24%20012006.png)
+
+Then, go to [http://localhost:8501](http://localhost:8501) to display real-time dashboarding.
+
+### General Dashboard for the Premier League and Dashboard for Any Team:
+
+![General Dashboard](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/first.png)
+
+#### If you select the general dashboard:
+
+![General Dashboard 1](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/img1.png)
+
+![General Dashboard 2](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/img2.png)
+
+![General Dashboard 3](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/img3.png)
+
+![General Dashboard 4](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/img4.png)
+
+#### If you select a dashboard for any team in the Premier League:
+
+##### First, choose your favorite team:
+
+![Team Dashboard 1](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg1.png)
+
+![Team Dashboard 2](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg2.png)
+
+![Team Dashboard 3](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg3.png)
+
+![Team Dashboard 4](https://github.com/2000aliali/Streaming-Premier-League-Champions-Data/blob/main/Images/timg4.png)
+
+
  
 
 
