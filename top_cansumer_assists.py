@@ -8,22 +8,7 @@ def consume_from_kafka():
         .appName("KafkaConsumer") \
         .getOrCreate()
     spark.sparkContext.setLogLevel("ERROR")
-    ''''
-    # Define the schema for the Kafka messages
-    schema = StructType() \
-        .add("rank", StringType()) \
-        .add("player_name", StringType()) \
-        .add("team_name", StringType()) \
-        .add("total_assists", StringType()) \
-        .add("total_goals", StringType()) \
-        .add("total_games_played", StringType()) \
-        .add("chance_created", StringType()) \
-        .add("chance_per_90", StringType()) \
-        .add("total_passes", StringType()) \
-        .add("passes_completed", StringType()) \
-        .add("passes_incompleted", StringType()) \
-        .add("pass_accuracy", StringType())
-        '''
+    
 
     # Define the schema for the Kafka messages
     schema = StructType() \
